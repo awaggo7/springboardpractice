@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script type="text/javascript" src="clarkswebsite.js">
+</script>
+<style>
+    body {
+        background-color: #251c1c;
+    }
+    
+    #backgroundimg {
+        top: 0;
+        left: 0;
+        right: 0;
+        opacity: .5;
+        position: absolute;
+        z-index: -1;
+        background-repeat: no-repeat;
+        background-size: 0px;
+        size: initial;
+        width: 100%;
+        height: 100%;
+        /* opacity: .5;
+        background: url('clarkstrong.jpg');
+        background-size: 5rem;
+        background-repeat: no-repeat; */
+    }
+    
+    #broncosbtn {
+        url("broncoslogo.jpg");
+    }
+    
+    #name:hover {
+        border-radius: 500px;
+        background-repeat: no-repeat;
+        background-color: rgb(245, 217, 217);
+        transition: 4000ms;
+        text-decoration: ;
+        font-size: 68px;
+        color: rgb(219, 53, 2);
+    }
+    
+    #familybtn:hover,
+    #videogamesbtn:hover,
+    #sportsbtn:hover,
+    #musicbtn:hover {
+        color: rgb(192, 17, 11);
+        transition: 100ms;
+        font-size: 30px;
+        background-color: transparent;
+    }
+    
+    h1 {
+        font-size: 50px;
+        text-align: center;
+        font-weight: bolder;
+        color: darkblue;
+        text-decoration: dotted, red;
+    }
+    
+    table {
+        margin-top: auto;
+        width: 100%;
+    }
+    
+    th {
+        font-size: 35px;
+        font-weight: 800;
+        border-style: hidden;
+        padding: 12px;
+    }
+    
+    button {
+        padding: 15px, 10px, 15px, 10px;
+        background: transparent;
+        border-style: solid;
+        color: rgba(182, 6, 6, 0.904);
+        font: oblique;
+        font-size: 25px;
+        font-weight: 800;
+    }
+    /* #clarkAtreus {
+        background-attachment: fixed;
+        opacity: .5;
+    } */
+    /* #drowdown,
+    th,
+    table {
+        background-size: auto;
+        font-size: 30px;
+        font-weight: bold;
+        border-collapse: separate;
+        border: solid;
+        border-color: black;
+    } */
+</style>
+
+<body>
+    <h1 id="name">CLARK DAVID WAGGONER
+        <img src="godofwarart.jpeg" id="backgroundimg">
+    </h1>
+    <table id="dropdown">
+        <th> <button id="familybtn" onclick="fatherFamily()">FAMILY</button></th>
+        <th><button id="videogamesbtn" onclick="vidGames()">VIDEO GAMES</button>
+        </th>
+        <th> <button id="sportsbtn">SPORTS</button>
+        </th>
+        <th><button id="musicbtn">MUSIC</button>
+        </th>
+
+    </table>
+    <h2> <button id="bronocsbtn"></button> </h2>
+</body>
+
+</html>
